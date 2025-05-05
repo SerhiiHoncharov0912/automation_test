@@ -1,14 +1,14 @@
 ## 🛠️ Setup Instructions
 To run the program, follow these steps:
 
-1️⃣ Clone the repository to your local machine.
-2️⃣ Open the project in any IDE that supports Python — for example, PyCharm or Visual Studio Code.
-3️⃣ In the terminal, from the root directory of the project, run the command `pip install -r requirements.txt` to install all required dependencies.
-4️⃣ Once all packages are installed, start the program by running the command `python main.py`.
+1. Clone the repository to your local machine.
+2. Open the project in any IDE that supports Python — for example, PyCharm or Visual Studio Code.
+3. In the terminal, from the root directory of the project, run the command `pip install -r requirements.txt` to install all required dependencies.
+4. Once all packages are installed, start the program by running the command `python main.py`.
 
 ## 🔍 Functionality Overview
-* This program automatically tests both positive and negative login scenarios for the website `https://www.saucedemo.com/`.
-* After a successful login, it:
+This program automatically tests both positive and negative login scenarios for the website `https://www.saucedemo.com/`.
+After a successful login, it:
   1. Extracts product information from the Inventory page;
   2. Saves product names and prices to `products.csv`;
   3. Logs all UI interactions in `automation.log`;
